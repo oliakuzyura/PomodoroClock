@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+body {
+  background: #2da09a;
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#timer-label {
+  font-size: 1.8rem;
+}
+
+.wrapper {
+  border: 7px solid #256663;
+  border-radius: 50px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+#time-left {
+  font-family: digital;
+  font-size: 4rem;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#buttons {
+  display: flex;
+}
+
+#session-label {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.timerChanger {
+  display: flex;
+}
+
+#break-label {
+  text-align: center;
+  font-size: 1.7rem;
+  padding-right: 30px;
+}
+
+.fa-arrow-up, .fa-arrow-down {
+  padding: 5px;
+}
+
+.up-down {
+  display: flex;
+  justify-content: center;
+}
